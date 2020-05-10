@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                echo 'Running build automation'
+                echo 'Running build automation with gradle'
 
                 sh './gradlew build --no-daemon'
 
